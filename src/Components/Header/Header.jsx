@@ -73,7 +73,7 @@ const Header = ({ theme, setTheme }) => {
 
   useEffect(() => {
     const token = localStorage.getItem("token"); // Local storage'dan token'ı alıyoruz
-    axios.get('http://localhost:8000/api/users', {
+    axios.get('https://shope-smoky.vercel.app/api/users', {
       headers: {
         Authorization: `Bearer ${token}` // Token'ı Authorization header'ına ekliyoruz
       }

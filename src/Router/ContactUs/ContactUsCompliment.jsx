@@ -33,7 +33,7 @@ const ContactUsCompliment = () => {
     AOS.refresh();
   }, []);
   return (
-    <div  className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden" style={{display:"flex",flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'30px'}}>
+    <div  className="bg-white dark:bg-black dark:text-black text-black overflow-x-hidden" style={{display:"flex",flexDirection:'column',alignItems:'center',justifyContent:'center',gap:'30px'}}>
         <Header theme={theme} setTheme={setTheme}  />
         <ContactUsDetails theme={theme}  />
         <Footer/>

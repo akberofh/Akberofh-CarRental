@@ -39,10 +39,10 @@ const ContactUsDetails = () => {
 
     emailjs
       .sendForm(
-        "service_4i87mgi",
-        "template_mbcbrta",
+        "service_2zpk6os",
+        "template_6rutc5r",
         form.current,
-        "maWLZ_lCIDUPfvYND"
+        "DUkmq3l_R7K62dV89"
       )
       .then(
         (result) => {
